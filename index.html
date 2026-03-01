@@ -3,33 +3,59 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SN Cloud & DevOps</title>
+<title>Sabarinadh</title>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
 <style>
 *{margin:0;padding:0;box-sizing:border-box;}
-body{font-family:'Poppins',sans-serif;background:#0f172a;color:#fff;line-height:1.6;}
-header{display:flex;justify-content:space-between;align-items:center;padding:20px 8%;background:#0b1120;}
+body{font-family:'Poppins',sans-serif;color:#fff;line-height:1.6;background:#0f172a;}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 8%;
+background:rgba(0,0,0,0.5);
+backdrop-filter:blur(5px);
+position:fixed;
+width:100%;
+z-index:100;
+}
 .logo{font-size:22px;font-weight:600;color:#38bdf8;}
 nav a{color:#fff;text-decoration:none;margin-left:20px;transition:0.3s;}
 nav a:hover{color:#38bdf8;}
-.btn{padding:8px 18px;background:#38bdf8;color:#0f172a;border-radius:20px;text-decoration:none;font-weight:600;}
-.hero{text-align:center;padding:120px 8%;}
+.btn{padding:8px 18px;background:#38bdf8;color:#0f172a;border-radius:20px;text-decoration:none;font-weight:600;transition:0.3s;}
+.btn:hover{background:#0ea5e9;}
+
+.hero{
+text-align:center;
+padding:120px 8%;
+background:url('https://images.unsplash.com/photo-1581091870620-8f620e54b82f?auto=format&fit=crop&w=1950&q=80') no-repeat center center/cover;
+min-height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+color:white;
+}
 .hero h1{font-size:48px;margin-bottom:20px;}
 .hero span{color:#38bdf8;}
-.hero p{color:#cbd5e1;margin-bottom:30px;}
+.hero p{color:#cbd5e1;margin-bottom:30px;text-shadow: 0 2px 8px rgba(0,0,0,0.6);}
+
 section{padding:80px 8%;text-align:center;}
 .services{display:flex;flex-wrap:wrap;gap:30px;justify-content:center;margin-top:40px;}
 .card{background:#1e293b;padding:30px;border-radius:15px;width:280px;transition:0.3s;}
 .card:hover{transform:translateY(-8px);background:#334155;}
 .card h3{margin-bottom:15px;color:#38bdf8;}
+
 footer{background:#0b1120;padding:30px;text-align:center;color:#94a3b8;}
 </style>
 </head>
+
 <body>
 
 <header>
-<div class="logo">SN Cloud & DevOps</div>
+<div class="logo">Sabarinadh</div>
 <nav>
 <a href="#">Home</a>
 <a href="#services">Services</a>
@@ -40,8 +66,8 @@ footer{background:#0b1120;padding:30px;text-align:center;color:#94a3b8;}
 </header>
 
 <div class="hero">
-<h1>Master <span>Linux, AWS & Automation</span></h1>
-<p>Professional DevOps training and cloud consulting solutions.</p>
+<h1>Master <span>in Networking</span></h1>
+<p>Professional Networking training and real-world projects.</p>
 <a href="signup.html" class="btn">Get Started</a>
 </div>
 
@@ -49,27 +75,27 @@ footer{background:#0b1120;padding:30px;text-align:center;color:#94a3b8;}
 <h2>Our Services</h2>
 <div class="services">
 <div class="card">
-<h3>Linux Administration</h3>
-<p>Server setup, security hardening, and performance optimization.</p>
+<h3>Network Administration</h3>
+<p>Setup, configure, and secure enterprise networks.</p>
 </div>
 <div class="card">
-<h3>AWS Cloud Solutions</h3>
-<p>EC2, S3, IAM, VPC architecture and cloud deployment strategies.</p>
+<h3>Cloud Networking</h3>
+<p>Configure virtual networks, VPNs, and cloud routing.</p>
 </div>
 <div class="card">
-<h3>DevOps Automation</h3>
-<p>Bash scripting, Ansible automation, CI/CD pipeline implementation.</p>
+<h3>Automation & Monitoring</h3>
+<p>Network automation, monitoring, and troubleshooting tools.</p>
 </div>
 </div>
 </section>
 
 <section id="courses">
 <h2>Training Programs</h2>
-<p>Practical, real-world focused courses on Linux, AWS, and DevOps tools.</p>
+<p>Hands-on courses on Networking, Cloud Networking, and Network Automation.</p>
 </section>
 
 <footer>
-© 2026 SN Cloud & DevOps | All Rights Reserved
+© 2026 Sabarinadh | All Rights Reserved
 </footer>
 
 </body>
